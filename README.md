@@ -27,5 +27,5 @@
 
 
 <h1>🎥 Apresentação do Projeto</h1>
-Clique <a href="#">aqui</a> para ver a apresentação do projeto.
+Clique <a href="#" text-decoration="none">aqui</a> para ver a apresentação do projeto.
 
