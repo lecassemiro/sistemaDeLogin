@@ -16,13 +16,13 @@
 
 <h1>👥 Equipe de Desenvolvimento</h1>
 <ul>
-  <li><a href="https://github.com/lecassemiro">Leandro Ferreira Cassemiro Rosa | RA: 2302060</a></li>
-  <li><a href="https://github.com/viniciuscassapian">Vinícius Hagop Cassapian Barbosa | RA: 2400943</li>
-  <li><a href="https://github.com/MATEUS-ANTOVERE-IMPACTA">Mateus Antovere Silva Rosário | RA: 2401764</li>
-  <li><a href="https://github.com/GabrielQMP">Gabriel Quaglio Monteiro Praça | RA: 2400738</li>
-  <li><a href="https://github.com/GuilhermePecorari">Guilherme Eduardo Moraes Pecorari | RA: 2400086</li>
-  <li><a href="https://github.com/Davibizerra">Davi de Moraes Bizerra | RA: 2401072</li>
-  <li><a href="https://github.com/gabmacedo">Gabriel Aparecido de Macedo | RA: 2401541</li>
+  <li><a href="https://github.com/lecassemiro">Leandro Ferreira Cassemiro Rosa</a> | RA: 2302060</li>
+  <li><a href="https://github.com/viniciuscassapian">Vinícius Hagop Cassapian Barbosa</a> | RA: 2400943</li>
+  <li><a href="https://github.com/MATEUS-ANTOVERE-IMPACTA">Mateus Antovere Silva Rosário</a> | RA: 2401764</li>
+  <li><a href="https://github.com/GabrielQMP">Gabriel Quaglio Monteiro Praça</a> | RA: 2400738</li>
+  <li><a href="https://github.com/GuilhermePecorari">Guilherme Eduardo Moraes Pecorari</a> | RA: 2400086</li>
+  <li><a href="https://github.com/Davibizerra">Davi de Moraes Bizerra</a> | RA: 2401072</li>
+  <li><a href="https://github.com/gabmacedo">Gabriel Aparecido de Macedo</a> | RA: 2401541</li>
 </ul>
 
 
