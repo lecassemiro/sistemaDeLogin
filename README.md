@@ -16,7 +16,7 @@
 
 <h1>👥 Equipe de Desenvolvimento</h1>
 <ul>
-  <li>Leandro Ferreira Cassemiro Rosa RA:2302060</li>
+  <li><a href="https://github.com/lecassemiro">Leandro Ferreira Cassemiro Rosa RA:2302060</a></li>
   <li>Vinícius Hagop Cassapian Barbosa RA:2400943</li>
   <li>Mateus Antovere Silva Rosário RA:2401764</li>
   <li>Gabriel Quaglio Monteiro Praça RA:2400738</li>
