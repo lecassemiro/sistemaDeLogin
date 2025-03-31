@@ -37,15 +37,14 @@ O projeto está organizado da seguinte forma:<br>
 Para executar este projeto localmente, siga os passos abaixo:
 
 1. Clone este repositório usando o comando:
-   sh
-   git clone https://github.com/lecassemiro/aula-impacta.git
+   <code>sh git clone https://github.com/lecassemiro/aula-impacta.git</code>
    
 2. Acesse a pasta do projeto:
-   sh
-   cd Sistema-de-login
+   <code>sh cd Sistema-de-login</code>
    
 3. Abra o arquivo html/index.html em seu navegador favorito.
 <h1>🎨 Alternância entre Modo Claro e Escuro</h1>
+A funcionalidade de Alternância entre Modo Claro e Escuro permite ao usuário alternar facilmente entre duas opções de tema visual, proporcionando uma experiência mais confortável de visualização.
 
 <h1>📌 Organização no GitHub</h1>
 Este repositório foi estruturado de maneira organizada para facilitar a colaboração e o entendimento do código:
