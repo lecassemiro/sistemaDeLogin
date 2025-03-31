@@ -5,11 +5,11 @@ O <strong>Sistema de Login Simples</strong> é um projeto desenvolvido para demo
 
 <h1>🚀 Funcionalidades</h1>
 <ul>
-  <li>🔐 <strong>Cadastro de Usuários</strong>strong> → Permite que novos usuários se registrem no sistema.</li>
-  <li>🔑 <strong>Autenticação Segura</strong>strong> → Login com validação de credenciais.</li>
-  <li>🔄 <strong>Recuperação de Senha</strong>strong> → Opção para redefinição de senha em caso de esquecimento.</li>
-  <li>🌗 <strong>Modo Claro e Escuro</strong>strong> → Alternância entre temas para melhor usabilidade.</li>
-  <li>📱 <strong>Responsividade</strong>strong> → Interface adaptável a diferentes dispositivos.</li>
+  <li>🔐 <strong>Cadastro de Usuários</strong → Permite que novos usuários se registrem no sistema.</li>
+  <li>🔑 <strong>Autenticação Segura</strong>→ Login com validação de credenciais.</li>
+  <li>🔄 <strong>Recuperação de Senha</strong> → Opção para redefinição de senha em caso de esquecimento.</li>
+  <li>🌗 <strong>Modo Claro e Escuro</strong> → Alternância entre temas para melhor usabilidade.</li>
+  <li>📱 <strong>Responsividade</strong> → Interface adaptável a diferentes dispositivos.</li>
 </ul>
 <h1>🛠 Tecnologias Utilizadas</h1>
 Este projeto foi desenvolvido utilizando as seguintes tecnologias:
@@ -42,7 +42,7 @@ Para executar este projeto localmente, siga os passos abaixo:
 2. Acesse a pasta do projeto:
    <code>sh cd Sistema-de-login</code>
    
-3. Abra o arquivo html/index.html em seu navegador favorito.
+3. Abra o arquivo <code>html/index.html</code> em seu navegador favorito.
 <h1>🎨 Alternância entre Modo Claro e Escuro</h1>
 A funcionalidade de Alternância entre Modo Claro e Escuro permite ao usuário alternar facilmente entre duas opções de tema visual, proporcionando uma experiência mais confortável de visualização.
 
@@ -50,7 +50,7 @@ A funcionalidade de Alternância entre Modo Claro e Escuro permite ao usuário a
 Este repositório foi estruturado de maneira organizada para facilitar a colaboração e o entendimento do código:
 - O código-fonte está devidamente separado em pastas específicas.
 - A documentação do projeto está clara e bem definida neste README.
-- O repositório é *público* para acesso e contribuição de qualquer interessado.
+- O repositório é <strong>público</strong> para acesso e contribuição de qualquer interessado.
 
 <h1>👥 Equipe de Desenvolvimento</h1>
 <ul>
