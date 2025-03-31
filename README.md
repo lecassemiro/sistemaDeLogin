@@ -5,7 +5,7 @@ O <strong>Sistema de Login Simples</strong> é um projeto desenvolvido para demo
 
 <h1>🚀 Funcionalidades</h1>
 <ul>
-  <li>🔐 <strong>Cadastro de Usuários</strong → Permite que novos usuários se registrem no sistema.</li>
+  <li>🔐 <strong>Cadastro de Usuários</strong> → Permite que novos usuários se registrem no sistema.</li>
   <li>🔑 <strong>Autenticação Segura</strong>→ Login com validação de credenciais.</li>
   <li>🔄 <strong>Recuperação de Senha</strong> → Opção para redefinição de senha em caso de esquecimento.</li>
   <li>🌗 <strong>Modo Claro e Escuro</strong> → Alternância entre temas para melhor usabilidade.</li>
