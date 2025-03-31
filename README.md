@@ -47,10 +47,10 @@ Para executar este projeto localmente, siga os passos abaixo:
 A funcionalidade de Alternância entre Modo Claro e Escuro permite ao usuário alternar facilmente entre duas opções de tema visual, proporcionando uma experiência mais confortável de visualização.
 
 <h1>📌 Organização no GitHub</h1>
-Este repositório foi estruturado de maneira organizada para facilitar a colaboração e o entendimento do código:
-- O código-fonte está devidamente separado em pastas específicas.
-- A documentação do projeto está clara e bem definida neste README.
-- O repositório é <strong>público</strong> para acesso e contribuição de qualquer interessado.
+Este repositório foi estruturado de maneira organizada para facilitar a colaboração e o entendimento do código:<br>
+- O código-fonte está devidamente separado em pastas específicas.<br>
+- A documentação do projeto está clara e bem definida neste README.<br>
+- O repositório é <strong>público</strong> para acesso e contribuição de qualquer interessado.<br>
 
 <h1>👥 Equipe de Desenvolvimento</h1>
 <ul>
