@@ -37,7 +37,7 @@ O projeto está organizado da seguinte forma:<br>
 Para executar este projeto localmente, siga os passos abaixo:
 
 1. Clone este repositório usando o comando:
-   <code>sh git clone https://github.com/lecassemiro/aula-impacta.git</code>
+   <code>sh git clone github.com/lecassemiro/aula-impacta.git</code>
    
 2. Acesse a pasta do projeto:
    <code>sh cd Sistema-de-login</code>
