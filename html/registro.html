@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Realize seu cadastro </title>
+    <title>Realize seu cadastro</title>
 
     <!-- Ícone da aba do navegador -->
     <link rel="shortcut icon" href="./icon/moon.ico" type="image/x-icon">
@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <!-- Container principal da tela de login -->
+    <!-- Container principal da tela de cadastro -->
     <div id="main-login">
         
         <!-- Seção esquerda com a imagem e título -->
@@ -25,7 +25,7 @@
             </a>
         </div>
 
-        <!-- Seção direita com o formulário de login -->
+        <!-- Seção direita com o formulário de registro -->
         <div class="right-login">
             <div class="card-login">
                 
@@ -43,32 +43,33 @@
                 <!-- Campo de usuário -->
                 <div class="textfield">
                     <label for="usuario">Usuário</label>
-                    <input type="text" name="usuario" placeholder="Digite seu nome de usuário" required>
+                    <input type="text" id="usuario" name="usuario" placeholder="Digite seu nome de usuário" required>
                 </div>
 
+                <!-- Campo de email -->
                 <div class="textfield">
-                    <label for="usuario">Email</label>
-                    <input type="email" name="email" placeholder="Digite seu email" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu email" required>
                 </div>
 
                 <!-- Campo de senha -->
                 <div class="textfield">
                     <label for="senha">Senha</label>
-                    <input type="password" name="senha" placeholder="Digite sua senha" required>
+                    <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
                 </div>
 
-                <!-- Botão de login -->
-                <button onclick="window.location.href='../html/login-realizado.html'" class="button-login">Registrar-se</button>
+                <!-- Botão de registrar -->
+                <button type="button" class="button-login" onclick="validarCadastro()">Registrar-se</button>
 
                 <div id="footer">
-                    <span class="create-account">Ja possui conta?</span> <a href="../html/index.html">Faça login!</a><br>
+                    <span class="create-account">Já possui conta?</span> <a href="../html/index.html">Faça login!</a><br>
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- Importa o JavaScript -->
+    <script src="../script.js"></script>
+
 </body>
-
-<!-- Importa o JavaScript -->
-<script src="../script.js"></script>
-
 </html>
