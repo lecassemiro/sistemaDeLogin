@@ -1,0 +1,297 @@
+/* Importa a fonte Poppins do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Definição de variáveis globais de cores */
+:root {
+    --color-dark-800: #2f2841;
+    /* Cor de fundo do card de login */
+    --color-background: #201b2c;
+    /* Cor de fundo da página */
+    --color-shadow-900: #00000056;
+    /* Sombra dos elementos */
+    --color-background-input: #514869;
+    /* Cor do campo de entrada */
+    --color-text: #f0ffffde;
+    /* Cor do texto */
+    --color-text-placeholder: #f0ffff94;
+    /* Cor do texto do placeholder */
+    --left-login-font: #77ffc0;
+    /* Cor do título na seção esquerda */
+    --color-green-200: #00ff88;
+    /* Cor do botão de login */
+    --color-shadow-green: #00ff8052;
+    /* Sombra do botão de login */
+    --color-background-light: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+/* Reset de estilos padrão para evitar comportamentos indesejados */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Estilização do contêiner principal */
+#main-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    /* Largura total da tela */
+    height: 100vh;
+    /* Altura total da tela */
+    background-color: var(--color-background);
+    animation-name: dark-to-light;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+
+}
+
+/* Estilização das seções esquerda e direita */
+.right-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 100vh;
+}
+
+/* Estilização do cartão de login */
+.card-login {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 35px;
+    background-color: var(--color-dark-800);
+    border-radius: 20px;
+    /* Borda arredondada */
+    box-shadow: 20px 10px 40px var(--color-shadow-900);
+    /* Sombra */
+    position: relative;
+}
+
+/* Configuração da área do título "LOGIN" */
+.login-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+/* Estilização do texto "LOGIN" */
+.login-name>h1 {
+    color: #00ff88;
+    font-weight: bold;
+    margin: 0;
+    cursor: default;
+
+}
+
+/* Botão para alternar entre os temas */
+#button {
+    width: 30px;
+    height: 30px;
+    right: 472px;
+    /* Posição fixa à direita */
+    margin: 2px 0;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#button:hover {
+    scale: 120%;
+}
+
+/* Define o tamanho do ícone dentro do botão */
+.icon {
+    width: 100%;
+}
+
+/* Estilização dos campos de entrada (usuário e senha) */
+.textfield {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px 0;
+}
+
+/* Configuração do input de texto */
+.textfield>input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #514869;
+    color: var(--color-text);
+    font: 12pt;
+    box-shadow: 20px 10px 40px var(--color-shadow-900);
+    outline: none;
+    box-sizing: border-box;
+}
+
+/* Estilização dos rótulos dos campos de entrada */
+.textfield>label {
+    color: var(--color-text);
+    margin-bottom: 10px;
+}
+
+/* Estilização do placeholder dos campos de entrada */
+.textfield>input::placeholder {
+    color: var(--color-text-placeholder);
+}
+
+/* Estilização do botão de login */
+.button-login {
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    margin: 25px;
+    padding: 16px 0;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #2b134b;
+    background-color: var(--color-green-200);
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px var(--color-shadow-green);
+    transition: all 0.3s ease;
+}
+
+.button-login:hover {
+    scale: 105%;
+    letter-spacing: 4px;
+}
+
+#footer {
+    text-align: center;
+}
+
+#footer span {
+    color: #fff;
+    font-weight: 500;
+}
+
+#footer a {
+    color: #77ffc0;
+}
+
+/* Configuração do tema claro */
+.light#main-login {
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    animation-name: light-to-dark;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+}
+
+/* Ajusta a cor do card de login no modo claro */
+.light#main-login .card-login {
+    background-color: #dadada;
+    box-shadow: 2px 9px 52px -15px rgba(0, 0, 0, 0.75);
+}
+
+/* Altera a cor do botão de login no modo claro */
+.light#main-login .button-login {
+    color: #eeeeee;
+    background-color: #8310F5;
+    box-shadow: 2px 9px 52px -15px rgba(0, 0, 0, 0.75);
+}
+
+/* Altera a cor do texto "RECUPERE SUA SENHA" no modo claro */
+.light#main-login .login-name>h1 {
+    color: #8310F5;
+}
+
+/* Modifica os campos de entrada no modo claro */
+.light#main-login .textfield>input {
+    background-color: #a8a5b1;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Altera a cor dos rótulos dos campos de entrada no modo claro */
+.light#main-login .textfield>label {
+    color: #262626;
+}
+
+/* Modifica a cor do placeholder no modo claro */
+.light#main-login .textfield>input::placeholder {
+    color: #545454cf;
+}
+
+.light#main-login .create-account {
+    color: black;
+}
+
+.light#main-login #footer a {
+    color: #8310F5;
+}
+
+@keyframes dark-to-light {
+    100% {background-color: var(--color-background);}
+    0% {background-color: var(--color-background-light);}
+}
+
+@keyframes light-to-dark {
+    100% {background-color: var(--color-background-light);}
+    0% { background-color: var(--color-background);}
+}
+
+
+/* Responsividade para telas menores que 600px */
+@media (max-width:600px) {
+
+    /* Organiza os elementos em coluna */
+    #main-login {
+        flex-direction: column;
+    }
+
+    /* Remove o título na versão mobile */
+    .left-login>h1 {
+        display: none;
+    }
+
+    /* Ajusta a largura da seção esquerda */
+    .left-login {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Ajusta a largura e altura da seção direita no mobile */
+    .right-login {
+        width: 100vw;
+        height: 70vh;
+    }
+
+    /* Ajusta o tamanho do card de login no mobile */
+    .card-login {
+        width: 90%;
+    }
+
+    /* Ajusta a posição do botão de tema no mobile */
+    #button {
+        right: 200px;
+    }
+}
+
+/* Responsividade para telas menores que 950px */
+@media (max-width:950px) {
+    .card-login {
+        width: 90%;
+    }
+
+    #button {
+        right: 280px;
+        /* Ajusta a posição do botão de tema */
+    }
+}
