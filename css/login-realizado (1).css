@@ -1,0 +1,56 @@
+/* Importa a fonte Poppins do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --color-dark-800: #2f2841; /* Cor de fundo do card de login */
+    --color-background: #201b2c; /* Cor de fundo da página */
+    --color-shadow-900: #00000056; /* Sombra dos elementos */
+    --color-background-input: #514869; /* Cor do campo de entrada */
+    --color-text: #f0ffffde; /* Cor do texto */
+    --color-text-placeholder: #f0ffff94; /* Cor do texto do placeholder */
+    --left-login-font: #77ffc0; /* Cor do título na seção esquerda */
+    --color-green-200: #00ff88; /* Cor do botão de login */
+    --color-shadow-green: #00ff8052; /* Sombra do botão de login */
+    --color-background-light: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+/* Reset de estilos padrão para evitar comportamentos indesejados */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw; /* Largura total da tela */
+    height: 100vh; /* Altura total da tela */
+    background-color: var(--color-background);
+}
+
+h1 {
+    color: var(--color-green-200);
+}
+
+button {
+    padding: 0.5rem 3rem;
+    margin-top: 0.5rem;
+    border-radius: 20px;
+    background-color: #fff;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    scale: 105%;
+}
+
