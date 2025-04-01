@@ -1,4 +1,4 @@
-/* Importa a fonte Roboto do Google Fonts */
+/* Importa a fonte Poppins do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 /* Definição de variáveis globais de cores */
@@ -32,21 +32,10 @@
     width: 100vw; /* Largura total da tela */
     height: 100vh; /* Altura total da tela */
     background-color: var(--color-background);
-
+    animation-name: dark-to-light;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
 }
-
-/* Adiciona uma transição suave para os elementos que mudam de cor */
-#main-login,
-.card-login,
-.button-login,
-.textfield > input,
-.textfield > label,
-.textfield > input::placeholder,
-.left-login > h1,
-.login-name > h1 {
-    transition: background-color 0.4s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-}
-
 
 /* Estilização das seções esquerda e direita */
 .left-login, .right-login {
@@ -87,6 +76,7 @@
     display: flex;
     width: 100%;
     justify-content: left;
+    align-items: center;
 }
 
 /* Estilização do texto "LOGIN" */
@@ -195,6 +185,9 @@
 /* Configuração do tema claro */
 .light#main-login {
     background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    animation-name: light-to-dark;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
 }
 
 /* Ajusta a cor do card de login no modo claro */
@@ -242,6 +235,16 @@
 
 .light#main-login #footer a {
     color: #8310F5;
+}
+
+@keyframes dark-to-light {
+    100% {background-color: var(--color-background);}
+    0% {background-color: var(--color-background-light);}
+}
+
+@keyframes light-to-dark {
+    100% {background-color: var(--color-background-light);}
+    0% { background-color: var(--color-background);}
 }
 
 
