@@ -1,17 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login efetuado com sucesso</title>
-    <link rel="stylesheet" href="../css/login-realizado.css">
+    <title>Realize seu login</title>
+
+    <!-- Ícone da aba do navegador -->
+    <link rel="shortcut icon" href="./icon/moon.ico" type="image/x-icon">
+
+    <!-- Importa o arquivo CSS -->
+    <link rel="stylesheet" href="../css/recuperar-senha.css">
 </head>
 <body>
-    <h1 id="titulo">Aguarde que nosso time irá entrar em contato em breve.</h1>
+    <!-- Container principal da tela de login -->
+    <div id="main-login">     
+        <!-- Seção direita com o formulário de login -->
+        <div class="right-login">
+            <div class="card-login">
+                <!-- Título e botão para alternar entre modo claro/escuro -->
+                <div class="login-name">
+                    <h1>Recupere sua senha</h1>
+                    <button id="button">
+                        <!-- Ícone do tema (sol/lua) -->
+                        <img class="icon" src="https://cdn0.iconfinder.com/data/icons/phosphor-fill-vol-4/256/sun-fill-256.png" 
+                             style="filter: invert(1);" alt="theme">
+                    </button>
+                </div>
+                <!-- Campo de usuário -->
+                <div class="textfield">
+                    <label for="usuario">Email</label>
+                    <input type="text" name="usuario" placeholder="Digite o email da sua conta">
+                </div>
+                <!-- Botão de login -->
+                <button class="button-login">PROXIMO PASSO</button>
 
-    <button onclick="window.location.href='../html/index.html'" class="button-login">Deslogar</button>
+                <div id="footer">
+                    <span class="create-account">Voltar e</span> <a href="../html/index.html">realizar login</a><br>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
+<!-- Importa o JavaScript -->
 <script src="../script.js"></script>
 
 </html>
