@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realize seu login</title>
+
+    <!-- Ícone da aba do navegador -->
+    <link rel="shortcut icon" href="./icon/moon.ico" type="image/x-icon">
+
+    <!-- Importa o arquivo CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Container principal da tela de login -->
+    <div id="main-login">
+        
+        <!-- Seção esquerda com a imagem e título -->
+        <div class="left-login">
+            <h1>Faça o login,<br>e entre para o nosso time!</h1>
+            <a href="https://storyset.com/science">
+                <!-- Imagem que muda conforme o tema -->
+                <img src="../images/Astronaut-bro.svg" alt="astronaut-animate" class="svg">
+            </a>
+        </div>
+
+        <!-- Seção direita com o formulário de login -->
+        <div class="right-login">
+            <div class="card-login">
+                
+                <!-- Título e botão para alternar entre modo claro/escuro -->
+                <div class="login-name">
+                    <h1>Login</h1>
+                    
+                    <button id="button">
+                        <!-- Ícone do tema (sol/lua) -->
+                        <img class="icon" src="https://cdn0.iconfinder.com/data/icons/phosphor-fill-vol-4/256/sun-fill-256.png" 
+                             style="filter: invert(1);" alt="theme">
+                    </button>
+                </div>
+
+                <!-- Campo de usuário -->
+                <div class="textfield">
+                    <label for="usuario">Usuário</label>
+                    <input type="text" id="usuario" name="usuario" placeholder="Digite seu nome de usuário">
+                </div>
+
+                <!-- Campo de senha -->
+                <div class="textfield">
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+                </div>
+
+                <!-- Botão de login -->
+                <button type="button" class="button-login" onclick="validarLogin()">Login</button>
+
+                <div id="footer">
+                    <span class="create-account">Não possui conta?</span> <a href="registro.html">Crie uma agora!</a><br>
+                    <span class="forget"><a href="../html/recuperar-senha.html">Esqueceu a senha?</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Importa o JavaScript -->
+    <script src="../script.js"></script>
+
+</body>
+</html>
