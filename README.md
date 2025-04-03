@@ -66,5 +66,5 @@ Este repositório foi estruturado de maneira organizada para facilitar a colabor
 
 
 <h1>🎥 Apresentação do Projeto</h1>
-Clique <a href="https://drive.google.com/file/d/1la-2T7zIZpTHKtQdWR1jGHhmOKefsprH/view?usp=sharing">aqui</a> para ver a apresentação do projeto.
+Clique <a href="https://drive.google.com/file/d/1la-2T7zIZpTHKtQdWR1jGHhmOKefsprH/view?usp=sharing" target="_blank">aqui</a> para ver a apresentação do projeto.
 
