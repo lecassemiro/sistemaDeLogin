@@ -32,6 +32,7 @@ O projeto está organizado da seguinte forma:<br>
  ┃ ┗ 📄 login-realizado.css (Estilos da página de confirmação de login)<br>
  ┣ 📂 images (Imagens utilizadas na interface)<br>
  ┣ 📄 script.js (Lógica de funcionamento do sistema)<br>
+ ┣ 📄 validacao.js (Lógica de funcionamento do sistema)<br>
 
 <h1>📌 Como Executar o Projeto</h1>
 Para executar este projeto localmente, siga os passos abaixo:
@@ -65,5 +66,5 @@ Este repositório foi estruturado de maneira organizada para facilitar a colabor
 
 
 <h1>🎥 Apresentação do Projeto</h1>
-Clique <a href="#" text-decoration="none">aqui</a> para ver a apresentação do projeto.
+Clique <a href="https://drive.google.com/file/d/1la-2T7zIZpTHKtQdWR1jGHhmOKefsprH/view?usp=sharing">aqui</a> para ver a apresentação do projeto.
 
